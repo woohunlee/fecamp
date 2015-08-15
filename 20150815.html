@@ -5,7 +5,6 @@
     <meta charset="utf-8">    
 </head>
 <body>
-  
     <form action="" method="post">
         <p>이름을 입력하세요</p>
         <p><input type="text" name="username"></p>
@@ -34,9 +33,49 @@
             <input type="checkbox" name="checkbox">
             <input type="checkbox" name="checkbox">
         </p>
-        <p>file &nbsp; <input type="file" name="file"></p>
+        <p>file &nbsp; <input type="file" name="file" accept="image/*"></p>
+        
+        <p>number &nbsp; <input type="number" min="0" max="10" step="2"></p>
+
+        <p>range &nbsp; <input type="range" min="0" max="10" step="2" value="8"></p>
+        
+        <select name="select">
+            <option selected disabled>말머리 선택</option>
+            <option value="option1">옵션 1</option>
+            <option value="option1">옵션 2</option>
+        </select>
+        >
+        <select>
+            <optgroup label="카테고리1">
+                <option>옵션 1</option>
+                <option>옵션 2</option>
+                <option>옵션 3</option>
+            </optgroup>
+            <optgroup label="카테고리2">
+                <option>옵션 1</option>
+                <option>옵션 2</option>
+                <option>옵션 3</option>
+            </optgroup>
+        </select>
+        
+        <br>
+        <br>
+        <textarea disabled>내용 입력 완료.</textarea>
+        <br>
+        <textarea cols="50" rows="5" placeholder="내용을 입력해 주세요."></textarea>
+         
+        <form>
+            <fieldset>
+                <legend>회원가입</legend>
+            </fieldset>
+
+            <fieldset>
+                <legend>회원가입</legend>
+            </fieldset>
+        </form>
+        
         <p><input type="submit" value="보내기">&nbsp;<input type="reset" name="reset" value="초기화"></p>
-    </form>
-    
+        
+    </form> 
 </body>
 </html>
