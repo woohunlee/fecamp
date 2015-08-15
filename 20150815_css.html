@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
     <meta charset="utf-8">
     <title>Sample Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- 나중에 선언된 style이 우선
+    <style type="text/css">
+        strong {
+            color: green;
+        }
+    </style>
+    -->
 </head>
+    
 <body>
     <p>
-        <strong style="color:red">C</strong>ascading
-        <strong style="color:red">S</strong>tyle
-        <strong style="color:red">S</strong>heet
+        <strong class="front">C</strong>ascading
+        <strong>S</strong>tyle
+        <span class="front" id="end">S</span>heet
+    </p>
+    
+    <p>
+        <a href="http://movie.naver.com">NAVER Movie</a><br>
+        <a href="http://www.daum.net">DAUM</a><br>
+        <a href="http://movie.daum.net">DAUM Movie</a><br>
     </p>
 </body>
+    
 </html>
