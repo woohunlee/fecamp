@@ -37,7 +37,7 @@ a:visited {
 /* hover가 visited 위에 있을 경우, 방문했던 링크 위에 커서를 놓아도 빨간 색으로 바뀌지 않음.*/
 a:hover {
     /* color: #ff0000; */
-    /* rgba(r,g,b,transparency(0~1)); */
+    /* rgba(r,g,b,투명도(0~1)); */
     color: rgba(255,0,0,0.5);
 }
 
